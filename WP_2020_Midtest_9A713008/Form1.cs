@@ -22,13 +22,13 @@ namespace WP_2020_Midtest_9A713008
         private void btn1_Click(object sender, EventArgs e)
         {
             Random a = new Random();//亂數種子
-            int i = a.Next(0, 14);
+            int i = a.Next(1, 14);
             pB1.Image = list[i];
         }
         private void btn2_Click(object sender, EventArgs e)
         {
             Random a = new Random();//亂數種子
-            int i = a.Next(0, 14);
+            int i = a.Next(1, 14);
             pB2.Image = list[i];
         }
         private void btn3_Click(object sender, EventArgs e)
